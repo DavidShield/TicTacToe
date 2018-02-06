@@ -126,16 +126,18 @@
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:ems="10"
+            android:gravity="center"
             android:inputType="textPersonName"
             android:text="Name"
-            android:textSize="40sp" />
+            android:textSize="35sp" />
 
         <Button
             android:id="@+id/playAgainButton"
             android:layout_width="match_parent"
             android:layout_height="80dp"
+            android:onClick="playAgain"
             android:text="Play Again"
-            android:onClick="playAgain"/>
+            android:textSize="30sp" />
     </LinearLayout>
 
 </RelativeLayout>
